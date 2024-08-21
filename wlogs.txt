@@ -1,0 +1,21 @@
+Iniciando nova verificação. Wed 08/21/2024 18:39:16.39 
+Processando: D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a copy 2.pdf 
+Arquivo D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a copy 2.pdf será salvo em D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\Documentos 
+Move /Y "D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a copy 2.pdf" "D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\Documentos\" 
+Processando: D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a copy 3.png 
+Arquivo D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a copy 3.png será salvo em D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\Imagens 
+Move /Y "D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a copy 3.png" "D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\Imagens\" 
+Processando: D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a copy 4.mp4 
+Arquivo D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a copy 4.mp4 será salvo em D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\Vídeos 
+Move /Y "D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a copy 4.mp4" "D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\Vídeos\" 
+Processando: D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a copy.pdf 
+Arquivo D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a copy.pdf será salvo em D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\Documentos 
+Move /Y "D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a copy.pdf" "D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\Documentos\" 
+Processando: D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a.pdf 
+Arquivo D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a.pdf será salvo em D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\Documentos 
+Move /Y "D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a.pdf" "D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\Documentos\" 
+Processando: D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a.py 
+Arquivo D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a.py será salvo em D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\Códigos 
+Move /Y "D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\a.py" "D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\windows\Códigos\" 
+Iniciando nova verificação. Wed 08/21/2024 18:39:25.86 
+Iniciando nova verificação. Wed 08/21/2024 18:39:33.55 

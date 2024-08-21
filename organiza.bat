@@ -9,13 +9,14 @@ set extensoes_documentos=pdf doc docx txt
 set extensoes_musicas=mp3 wav
 set extensoes_videos=mp4 avi mkv
 set extensoes_codigos=c cpp py
+set "log_file=%~dp0wlogs.txt"
 
 :loop
-echo Iniciando nova verificação. %date% %time%
+echo Iniciando nova verificação. %date% %time% >> "%log_file%"
 
 for %%f in ("%pasta_de_trabalho%\*") do (
     if exist "%%f" (
-        echo Processando: %%f
+        echo Processando: %%f >> "%log_file%"
         set "extensao_do_arquivo=%%~xf"
         set "extensao_do_arquivo=!extensao_do_arquivo:~1!"
 
@@ -24,9 +25,9 @@ for %%f in ("%pasta_de_trabalho%\*") do (
         for %%e in (%extensoes_imagens%) do (
             if "!extensao_do_arquivo!"=="%%e" (
                 set "destino=%pasta_de_trabalho%\Imagens"
-                echo Arquivo %%f será salvo em !destino!
+                echo Arquivo %%f será salvo em !destino! >> "%log_file%"
                 if not exist "!destino!" mkdir "!destino!"
-                echo Move /Y "%%f" "!destino!\"
+                echo Move /Y "%%f" "!destino!\" >> "%log_file%"
                 move /Y "%%f" "!destino!\"
             )
         )
@@ -34,9 +35,9 @@ for %%f in ("%pasta_de_trabalho%\*") do (
         for %%e in (%extensoes_documentos%) do (
             if "!extensao_do_arquivo!"=="%%e" (
                 set "destino=%pasta_de_trabalho%\Documentos"
-                echo Arquivo %%f será salvo em !destino!
+                echo Arquivo %%f será salvo em !destino! >> "%log_file%"
                 if not exist "!destino!" mkdir "!destino!"
-                echo Move /Y "%%f" "!destino!\"
+                echo Move /Y "%%f" "!destino!\" >> "%log_file%"
                 move /Y "%%f" "!destino!\"
             )
         )
@@ -44,9 +45,9 @@ for %%f in ("%pasta_de_trabalho%\*") do (
         for %%e in (%extensoes_musicas%) do (
             if "!extensao_do_arquivo!"=="%%e" (
                 set "destino=%pasta_de_trabalho%\Músicas"
-                echo Arquivo %%f será salvo em !destino!
+                echo Arquivo %%f será salvo em !destino! >> "%log_file%"
                 if not exist "!destino!" mkdir "!destino!"
-                echo Move /Y "%%f" "!destino!\"
+                echo Move /Y "%%f" "!destino!\" >> "%log_file%"
                 move /Y "%%f" "!destino!\"
             )
         )
@@ -54,9 +55,9 @@ for %%f in ("%pasta_de_trabalho%\*") do (
         for %%e in (%extensoes_videos%) do (
             if "!extensao_do_arquivo!"=="%%e" (
                 set "destino=%pasta_de_trabalho%\Vídeos"
-                echo Arquivo %%f será salvo em !destino!
+                echo Arquivo %%f será salvo em !destino! >> "%log_file%"
                 if not exist "!destino!" mkdir "!destino!"
-                echo Move /Y "%%f" "!destino!\"
+                echo Move /Y "%%f" "!destino!\" >> "%log_file%"
                 move /Y "%%f" "!destino!\"
             )
         )
@@ -64,9 +65,9 @@ for %%f in ("%pasta_de_trabalho%\*") do (
         for %%e in (%extensoes_codigos%) do (
             if "!extensao_do_arquivo!"=="%%e" (
                 set "destino=%pasta_de_trabalho%\Códigos"
-                echo Arquivo %%f será salvo em !destino!
+                echo Arquivo %%f será salvo em !destino! >> "%log_file%"
                 if not exist "!destino!" mkdir "!destino!"
-                echo Move /Y "%%f" "!destino!\"
+                echo Move /Y "%%f" "!destino!\" >> "%log_file%"
                 move /Y "%%f" "!destino!\"
             )
         )
