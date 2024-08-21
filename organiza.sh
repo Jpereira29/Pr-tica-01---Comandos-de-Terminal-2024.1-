@@ -1,6 +1,6 @@
 #!/bin/bash
 # Caminho para a pasta de trabalho
-pasta_de_trabalho="D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\home"
+pasta_de_trabalho="D:\PROJETOS\Faculdade\Prática 01 - Comandos de Terminal (2024.1)\linux"
 # Listas de extensões
 extensoes_imagens=("jpg" "jpeg" "png" "gif")
 extensoes_documentos=("pdf" "doc" "docx" "txt")
